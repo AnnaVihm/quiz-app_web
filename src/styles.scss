@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 800px;
+}
+
+.background-home{
+    background-color: #00A8FF;
+    border-radius: 15px;
+}
+
+.card-color {
+    background-color: #00A8FF;
+    height: 600px;
+    border-radius: 15px;
+}

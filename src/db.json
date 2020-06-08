@@ -1,0 +1,16 @@
+{"produtos": [
+    {
+      "ordem": 1,
+      "pergunta": "Julgue as afirmativas baixo: I) Utilizar blocos de alocação de disco de tamanho reduzido melhora a fragmentação interna do sistema de arquivos, mas é contraindicado em sistemas que fazem leitura frequente de arquivos no disco.II) Um dos problemas da alocação de arquivos pori-node é que é preciso manter em memória, o tempo todo, uma única extensa tabela com tantas entradas quantos forem os blocos do disco. III) A alocação de arquivos em blocos contíguos tem desempenho excelente; porém, se não for possível conhecer o tamanho máximo do arquivo por ocasião de sua criação, ela não é praticável. Sobre elas, está correta a alternativa,",
+      "respostas": [
+          {"id":1, "descricao":"a) Somente I e III estão corretas."},
+          {"id":2, "descricao":"b) Somente I está correta.."},
+          {"id":3, "descricao":"c) Somente II está correta."},
+          {"id":4, "descricao":"d) Somente III está correta."},
+          {"id":5, "descricao":"e) Somente II e III estão corretas."}
+      ],
+      "respondido": false
+    }
+   
+  ]
+}
