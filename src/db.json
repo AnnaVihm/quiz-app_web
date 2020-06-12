@@ -32,8 +32,8 @@
       ],
       "respondido": false,
       "itemRespondido": {
-        "id": 5,
-        "descricao": "e) Somente II e III estão corretas.",
+        "id": 4,
+        "descricao": "d) Somente III está correta.",
         "correta": false
       }
     },
@@ -69,8 +69,8 @@
       ],
       "respondido": false,
       "itemRespondido": {
-        "id": 3,
-        "descricao": "c) SATA.",
+        "id": 4,
+        "descricao": "d) HDMI.",
         "correta": false
       }
     },
@@ -224,8 +224,8 @@
       ],
       "respondido": false,
       "itemRespondido": {
-        "id": 3,
-        "descricao": "c) São mapeados em uma relação 1x1 com os blocos do disco.",
+        "id": 5,
+        "descricao": "e) São lidos do disco sem passar pelo sistema operacional.",
         "correta": false
       }
     },
@@ -283,9 +283,9 @@
       ],
       "respondido": false,
       "itemRespondido": {
-        "id": 2,
-        "descricao": "b) NTFS.",
-        "correta": true
+        "id": 3,
+        "descricao": "c) UTFS.",
+        "correta": false
       }
     },
     {
@@ -352,9 +352,9 @@
       ],
       "respondido": false,
       "itemRespondido": {
-        "id": 4,
-        "descricao": "d) O caminho formado entre o diretório raiz e o arquivo.",
-        "correta": true
+        "id": 5,
+        "descricao": "e) O caminho formado entre o diretório recorrente e o arquivo.",
+        "correta": false
       }
     }
   ],
@@ -378,6 +378,11 @@
       "id": 4,
       "jogador": "dsad",
       "qntAcertos": 4
+    },
+    {
+      "id": 5,
+      "jogador": "dsadas",
+      "qntAcertos": 2
     }
   ],
   "respondidas": []
