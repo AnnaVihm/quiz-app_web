@@ -1,0 +1,90 @@
+<div class="container mt-5" style="border-radius: 15px; background-color: #ffff;" *ngIf="questao != null">
+    <div style="height: 600px; background-color: #ffff;">
+        <nav class="navbar navbar-light nav-bar-bluer">
+            <img src="../../../assets/img/ic_logo_quiz.png" width="60" height="40" class="d-inline-block align-top"
+                alt="" loading="lazy">
+            <ul class="list-group list-group-horizontal-md" *ngFor="let q of questoes">
+                <li class="list-group-item list-group-item-success" *ngIf="q.id === questao.id">{{q.id}}</li>
+                <li class="list-group-item " *ngIf="q.id !== questao.id">{{q.id}}</li>
+
+            </ul>
+        </nav>
+        <div class="row ml-1">
+            <div class="col-lg-12 mt-3">
+                {{questao?.id}} - {{questao.pergunta}}
+            </div>
+        </div>
+        <div class="row mt-4 ml-2">
+            <div class="col-log-12">
+                <mat-radio-group aria-labelledby="example-radio-group-label" class="example-radio-group"
+                    [(ngModel)]="respostaCorreta">
+                    <mat-radio-button class="example-radio-button" *ngFor="let i of questao.respostas" [value]="i">
+                        {{i?.descricao}}
+                    </mat-radio-button>
+                </mat-radio-group>
+            </div>
+        </div>
+        <div class="row mt-4 ml-2">
+            <div class="col-log-12 float-left">
+                <button type="button" style="width: 150%;" [disabled]="respostaCorreta == null" (click)="proxima()" class="btn btn-primary">Próxima</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container mt-5" style="border-radius: 15px; background-color: #ffff;" *ngIf="questao == null">
+    <div style="background-color: #ffff;">
+        <nav class="navbar navbar-light nav-bar-bluer">
+            <img src="../../../assets/img/ic_logo_quiz.png" width="60" height="40" class="d-inline-block align-top"
+                alt="" loading="lazy">
+            <p class="text-light text-center">Você concluir o questionário</p>
+        </nav>
+        <h2>Você acertou {{corretas}} de {{erradas}} </h2>
+        <div *ngFor="let q of questoes2">
+            <div class="card text-white border-success  mb-3 mt-3" *ngIf="correta(q).respondida.correta">
+                <div class="card-body text-success">
+                    <div class="row ml-1">
+                        <div class="col-lg-12 mt-3">
+                            {{q?.id}} - {{q?.pergunta}}
+                            <mat-radio-group aria-labelledby="example-radio-group-label" class="example-radio-group"
+                                [(ngModel)]="q.itemRespondido.id">
+                                <mat-radio-button class="example-radio-button" checked="true"
+                                    [value]="q.itemRespondido.id">
+                                    {{q?.itemRespondido?.descricao}}
+                                </mat-radio-button>
+                            </mat-radio-group>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card text-white border-danger  mb-3 mt-3" *ngIf="correta(q).respondida.correta != true">
+                <div class="card-body text-danger">
+                    <div class="row ml-1">
+                        <div class="col-lg-12 mt-3">
+                            {{q?.id}} - {{q?.pergunta}}
+                            <mat-radio-group aria-labelledby="example-radio-group-label" class="example-radio-group"
+                                [(ngModel)]="q.itemRespondido.id">
+                                <mat-radio-button class="example-radio-button" checked="true"
+                                    [value]="q.itemRespondido.id">
+                                    {{q?.itemRespondido?.descricao}}
+                                </mat-radio-button>
+                            </mat-radio-group>
+                            <div class="alert alert-warning" role="alert">
+                                {{correta(q).correta}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row mt-4 ml-2">
+            <div class="col-log-6 ">
+                <button type="button" style="width: 150%;" (click)="ranking()" class="btn btn-primary">Ranking</button>
+            </div>
+            <div class="col-log-6 ml-5">
+                <button type="button" style="width: 150%;" (click)="inicio()" class="btn btn-primary">Inicio</button>
+            </div>
+        </div>
+    </div>
+</div>

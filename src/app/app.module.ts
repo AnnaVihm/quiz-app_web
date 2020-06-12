@@ -9,7 +9,13 @@ import {MatCardModule} from '@angular/material/card';
 import { ConteudoComponent } from './conteudo/conteudo.component';
 import { HomeComponent } from './home/home.component';
 import { QuizComponent } from './quiz/quiz.component';
+import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { QuestionarioComponent } from './quiz/questionario/questionario.component';
+import { HttpClientModule } from '@angular/common/http';
+import {MatRadioModule} from '@angular/material/radio';
+import { RankingComponent } from './ranking/ranking.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +23,8 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     ConteudoComponent,
     HomeComponent,
     QuizComponent,
+    QuestionarioComponent,
+    RankingComponent,
   ],
   imports: [
     BrowserModule,
@@ -24,7 +32,12 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     BrowserAnimationsModule,
     //NgbModule,
     MatCardModule,
-    MatFormFieldModule
+    MatInputModule,
+    MatFormFieldModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+    MatRadioModule,
+    FormsModule
 
   ],
   providers: [],

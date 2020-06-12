@@ -3,7 +3,7 @@
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
 
-html, body { height: 100%; }
+html, body { height: 100%; background-color: #e2e2e2; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .container-xl, .container-lg, .container-md, .container-sm, .container {
@@ -11,12 +11,33 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 .background-home{
-    background-color: #00A8FF;
+    background: #00A8FF;
     border-radius: 15px;
 }
 
 .card-color {
     background-color: #00A8FF;
     height: 600px;
-    border-radius: 15px;
 }
+.mat-form-field-appearance-fill .mat-form-field-flex {
+    background-color: rgba(255, 255, 255, 0.93) !important;
+}
+.example-full-width {
+    width: 50%;
+  }
+
+  .nav-bar-bluer{
+    background-color: #00A8FF;
+    margin-right: -15px;
+    margin-left: -15px;
+    border-radius: 5px;
+  }
+  .example-radio-group {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+  }
+  
+  .example-radio-button {
+    margin: 5px;
+  }

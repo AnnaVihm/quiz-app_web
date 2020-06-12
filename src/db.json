@@ -1,16 +1,384 @@
-{"produtos": [
+{
+  "quiz": [
     {
-      "ordem": 1,
+      "id": 1,
       "pergunta": "Julgue as afirmativas baixo: I) Utilizar blocos de alocação de disco de tamanho reduzido melhora a fragmentação interna do sistema de arquivos, mas é contraindicado em sistemas que fazem leitura frequente de arquivos no disco.II) Um dos problemas da alocação de arquivos pori-node é que é preciso manter em memória, o tempo todo, uma única extensa tabela com tantas entradas quantos forem os blocos do disco. III) A alocação de arquivos em blocos contíguos tem desempenho excelente; porém, se não for possível conhecer o tamanho máximo do arquivo por ocasião de sua criação, ela não é praticável. Sobre elas, está correta a alternativa,",
       "respostas": [
-          {"id":1, "descricao":"a) Somente I e III estão corretas."},
-          {"id":2, "descricao":"b) Somente I está correta.."},
-          {"id":3, "descricao":"c) Somente II está correta."},
-          {"id":4, "descricao":"d) Somente III está correta."},
-          {"id":5, "descricao":"e) Somente II e III estão corretas."}
+        {
+          "id": 1,
+          "descricao": "a) Somente I e III estão corretas.",
+          "correta": true
+        },
+        {
+          "id": 2,
+          "descricao": "b) Somente I está correta..",
+          "correta": false
+        },
+        {
+          "id": 3,
+          "descricao": "c) Somente II está correta.",
+          "correta": false
+        },
+        {
+          "id": 4,
+          "descricao": "d) Somente III está correta.",
+          "correta": false
+        },
+        {
+          "id": 5,
+          "descricao": "e) Somente II e III estão corretas.",
+          "correta": false
+        }
       ],
-      "respondido": false
+      "respondido": false,
+      "itemRespondido": {
+        "id": 5,
+        "descricao": "e) Somente II e III estão corretas.",
+        "correta": false
+      }
+    },
+    {
+      "id": 2,
+      "pergunta": "Dispositivo de armazenamento que utiliza chips de memória Flash no lugar de discos magnéticos foi projetado para substituir o HD. A vantagem é que oferece tempos de acesso muito baixos, combinados com excelentes taxas de leitura e gravação em setores aleatórios. Isso melhora o desempenho, consideravelmente, em uma grande gama de aplicativos e reduz bastante o tempo de boot. Possui um consumo elétrico mais baixo (o que o torna um componente atrativo especialmente para os notebooks), silencioso, resistente a impactos e oferece melhor segurança contra perda de dados devido a defeitos de hardware, já que não possui partes móveis. Sua maior desvantagem é o alto custo por megabyte.",
+      "respostas": [
+        {
+          "id": 1,
+          "descricao": "a) DIMM.",
+          "correta": false
+        },
+        {
+          "id": 2,
+          "descricao": "b) SSD.",
+          "correta": true
+        },
+        {
+          "id": 3,
+          "descricao": "c) SATA.",
+          "correta": false
+        },
+        {
+          "id": 4,
+          "descricao": "d) HDMI.",
+          "correta": false
+        },
+        {
+          "id": 5,
+          "descricao": "e) SSL.",
+          "correta": false
+        }
+      ],
+      "respondido": false,
+      "itemRespondido": {
+        "id": 3,
+        "descricao": "c) SATA.",
+        "correta": false
+      }
+    },
+    {
+      "id": 3,
+      "pergunta": "Considerando os dispositivos de armazenamento ótico removíveis, é correto afirmar que:",
+      "respostas": [
+        {
+          "id": 1,
+          "descricao": "a) Um CD-RW pode ser escrito apenas uma vez usando um gravador de CD, mas lido várias vezes por gravadores e leitores de CD.",
+          "correta": false
+        },
+        {
+          "id": 2,
+          "descricao": "b) Um CD-ROM pode ser escrito apenas uma vez usando um gravador de CD, mas lido várias vezes por gravadores e leitores de CD.",
+          "correta": false
+        },
+        {
+          "id": 3,
+          "descricao": "c) Um CD-R pode ser escrito e lido várias vezes por gravadores e leitores de CD.",
+          "correta": false
+        },
+        {
+          "id": 4,
+          "descricao": "d) Um CD-R só pode ser escrito por um leitor de CD após ter sido formatado por um gravador de CD.",
+          "correta": false
+        },
+        {
+          "id": 5,
+          "descricao": "e) Um CD-ROM é fabricado (masterizado) com todos os dados já escritos e estes dados não podem ser alterados por um gravador de CD.",
+          "correta": true
+        }
+      ],
+      "respondido": false,
+      "itemRespondido": {
+        "id": 5,
+        "descricao": "e) Um CD-ROM é fabricado (masterizado) com todos os dados já escritos e estes dados não podem ser alterados por um gravador de CD.",
+        "correta": true
+      }
+    },
+    {
+      "id": 4,
+      "pergunta": "João possui uma pasta em seu computador com um conjunto de arquivos que totalizam 4GB. A mídia de backup adequada, dentre outras, para receber uma cópia da pasta é",
+      "respostas": [
+        {
+          "id": 1,
+          "descricao": "a) DVD-RW.",
+          "correta": true
+        },
+        {
+          "id": 2,
+          "descricao": "b) CD-R.",
+          "correta": false
+        },
+        {
+          "id": 3,
+          "descricao": "c) Disquete de 3 e 1/2 polegadas de alta densidade.",
+          "correta": false
+        },
+        {
+          "id": 4,
+          "descricao": "d) Memória CACHE.",
+          "correta": false
+        },
+        {
+          "id": 5,
+          "descricao": "e) Memória RAM.",
+          "correta": false
+        }
+      ],
+      "respondido": false,
+      "itemRespondido": {
+        "id": 5,
+        "descricao": "e) Memória RAM.",
+        "correta": false
+      }
+    },
+    {
+      "id": 5,
+      "pergunta": "Uma partição, se for convertida para NTFS, pode, posteriormente, ser convertida para FAT32, sem que, para isso, seja preciso reformatá-la.",
+      "respostas": [
+        {
+          "id": 1,
+          "descricao": "a) Certo",
+          "correta": false
+        },
+        {
+          "id": 2,
+          "descricao": "b) Errado",
+          "correta": true
+        }
+      ],
+      "respondido": false,
+      "itemRespondido": {
+        "id": 2,
+        "descricao": "b) Errado",
+        "correta": true
+      }
+    },
+    {
+      "id": 6,
+      "pergunta": "Uma partição de disco DOS/Windows pode, em ambiente Linux, ter seu diretório de arquivos fazendo parte da hierarquia do sistema de arquivos Linux.",
+      "respostas": [
+        {
+          "id": 1,
+          "descricao": "a) Certo",
+          "correta": true
+        },
+        {
+          "id": 2,
+          "descricao": "b) Errado",
+          "correta": false
+        }
+      ],
+      "respondido": false,
+      "itemRespondido": {
+        "id": 2,
+        "descricao": "b) Errado",
+        "correta": false
+      }
+    },
+    {
+      "id": 7,
+      "pergunta": "No método de acesso direto, um arquivo é composto de registros lógicos de tamanho fixo que",
+      "respostas": [
+        {
+          "id": 1,
+          "descricao": "a) Podem ser acessados em qualquer id.",
+          "correta": true
+        },
+        {
+          "id": 2,
+          "descricao": "b) Podem ser acessados apenas na id de criação.",
+          "correta": false
+        },
+        {
+          "id": 3,
+          "descricao": "c) São mapeados em uma relação 1x1 com os blocos do disco.",
+          "correta": false
+        },
+        {
+          "id": 4,
+          "descricao": "d) São alocados em blocos contídos no disco.",
+          "correta": false
+        },
+        {
+          "id": 5,
+          "descricao": "e) São lidos do disco sem passar pelo sistema operacional.",
+          "correta": false
+        }
+      ],
+      "respondido": false,
+      "itemRespondido": {
+        "id": 3,
+        "descricao": "c) São mapeados em uma relação 1x1 com os blocos do disco.",
+        "correta": false
+      }
+    },
+    {
+      "id": 8,
+      "pergunta": "Ao instalar o Windows 7 Ultimate em um microcomputador, um programador de sistemas da empresa utiliza, por default, o seguinte formato para o sistema de alocação de arquivos",
+      "respostas": [
+        {
+          "id": 1,
+          "descricao": "a) NTFS",
+          "correta": true
+        },
+        {
+          "id": 2,
+          "descricao": "b) HPFS",
+          "correta": false
+        }
+      ],
+      "respondido": false,
+      "itemRespondido": {
+        "id": 2,
+        "descricao": "b) HPFS",
+        "correta": false
+      }
+    },
+    {
+      "id": 9,
+      "pergunta": "Os sistemas operacionais Windows XP e superiores permitem a escolha do sistema de arquivos a ser utilizado nos dispositivos de armazenamento. Dentre as diferentes possibilidades para os sistemas operacionais Windows, a Microsoft recomenda o uso de um sistema de arquivos que oferece recursos de segurança e mais confiabilidade, encontrados no",
+      "respostas": [
+        {
+          "id": 1,
+          "descricao": "a) FAT16.",
+          "correta": false
+        },
+        {
+          "id": 2,
+          "descricao": "b) NTFS.",
+          "correta": true
+        },
+        {
+          "id": 3,
+          "descricao": "c) UTFS.",
+          "correta": false
+        },
+        {
+          "id": 4,
+          "descricao": "d) EXT3.",
+          "correta": false
+        },
+        {
+          "id": 5,
+          "descricao": "e) FAT32.",
+          "correta": false
+        }
+      ],
+      "respondido": false,
+      "itemRespondido": {
+        "id": 2,
+        "descricao": "b) NTFS.",
+        "correta": true
+      }
+    },
+    {
+      "id": 10,
+      "pergunta": "Qual o serviço de nomes que é mais comumente utilizado pelo NFS para prover compartilhamento de arquivos no ambiente Linux?",
+      "respostas": [
+        {
+          "id": 1,
+          "descricao": "a) DNS.",
+          "correta": false
+        },
+        {
+          "id": 2,
+          "descricao": "b) DHCP.",
+          "correta": true
+        },
+        {
+          "id": 3,
+          "descricao": "c) NIS.",
+          "correta": false
+        },
+        {
+          "id": 4,
+          "descricao": "d) WINS.",
+          "correta": false
+        }
+      ],
+      "respondido": false,
+      "itemRespondido": {
+        "id": 3,
+        "descricao": "c) NIS.",
+        "correta": false
+      }
+    },
+    {
+      "id": 11,
+      "pergunta": "Em um sistema de arquivos organizado como uma árvore de diretório, define-se como caminho absoluto:",
+      "respostas": [
+        {
+          "id": 1,
+          "descricao": "a) O caminho do diretório de trabalho do usuário.",
+          "correta": false
+        },
+        {
+          "id": 2,
+          "descricao": "b) O caminho do diretório atual.",
+          "correta": false
+        },
+        {
+          "id": 3,
+          "descricao": "c) O caminho formado entre o diretório de trabalho do usuário e o diretório atual.",
+          "correta": false
+        },
+        {
+          "id": 4,
+          "descricao": "d) O caminho formado entre o diretório raiz e o arquivo.",
+          "correta": true
+        },
+        {
+          "id": 5,
+          "descricao": "e) O caminho formado entre o diretório recorrente e o arquivo.",
+          "correta": false
+        }
+      ],
+      "respondido": false,
+      "itemRespondido": {
+        "id": 4,
+        "descricao": "d) O caminho formado entre o diretório raiz e o arquivo.",
+        "correta": true
+      }
     }
-   
-  ]
+  ],
+  "ranking": [
+    {
+      "id": 1,
+      "jogador": "Anna vitoria",
+      "qntAcertos": 1
+    },
+    {
+      "id": 2,
+      "jogador": "anna v",
+      "qntAcertos": 3
+    },
+    {
+      "id": 3,
+      "jogador": "anna ",
+      "qntAcertos": 4
+    },
+    {
+      "id": 4,
+      "jogador": "dsad",
+      "qntAcertos": 4
+    }
+  ],
+  "respondidas": []
 }
