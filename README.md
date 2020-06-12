@@ -1,27 +1,13 @@
 # QuizApp
+PARA EXECUTAR O APLICATIVO DEVE TER O NODEJS `https://nodejs.org/en/download/`
+PARA EXECUTAR O APLICATIVO DEVE TER O ANGULAR CLI INSTALADO NA VERSÃO 9
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+EM SEGUIDA EXECULTAR O COMANDO `npm install` dentro do projeto
 
-## Development server
+APÓS VOCÊ IRA COMPILAR APLICAÇÃO COM O COMANDO `ng serve`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## PARA EXECURTAR A API DE TESTE
 
-## Code scaffolding
+DEVERÁ SER INSTALADO NA SUA MAQUINA O `npm install -g json-server`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+APÓS ISSO DEVERA SER EXECUTADO O COMANDO `json-server --watch db.json` DENTRO DO ARQUIVO `src` 
